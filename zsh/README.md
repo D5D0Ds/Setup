@@ -106,4 +106,4 @@ sudo apt install zsh -y
 
 - **rerun _filename.cpp_** to build using sanitizers.
     
-Note: ***run*** and ***rerun*** are functions defined by me as I couldn't think of a better name. You can make you own by modifying in the file like [here](https://github.com/madhavchoudhary0911/Setup/blob/eb4d235f1fd9360cc257d1e26addcfd8460fd546/zsh/.config/zsh/.zshrc#L108).
+Note: ***run*** and ***rerun*** are functions defined by me as I couldn't think of a better name. You can make you own by modifying in the file like [here](https://github.com/madhavchoudhary0911/Setup/blob/eb4d235f1fd9360cc257d1e26addcfd8460fd546/zsh/.config/zsh/.zshrc#L108). Refer [this](https://usaco.guide/general/cpp-command#adding-shortcuts-mac) column of the amazing **UNACO Guide** for concept behind it.
