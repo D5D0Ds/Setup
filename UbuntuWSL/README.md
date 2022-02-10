@@ -10,7 +10,8 @@
 
 4. Update the Ubuntu using:
 ```
-sudo apt update && sudo apt upgrade
+sudo apt update && sudo apt upgrade -y
+sudo apt-get install build-essential -y
 ```
 
 ## ***(Optional)*** To silent the password for Ubuntu, follow these steps:

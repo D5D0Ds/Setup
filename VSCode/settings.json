@@ -1,0 +1,121 @@
+{
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.insidersChannel": "daily",
+    "julia.enableTelemetry": true,
+    "C_Cpp.default.intelliSenseMode": "windows-gcc-x64",
+    "C_Cpp.autocompleteAddParentheses": true,
+    "C_Cpp.default.cppStandard": "c++20",
+    "C_Cpp.default.cStandard": "gnu17",
+    "julia.focusPlotNavigator": true,
+    "C_Cpp.vcFormat.indent.accessSpecifiers": true,
+    "C_Cpp.vcFormat.indent.braces": true,
+    "C_Cpp.vcFormat.space.betweenEmptyLambdaBrackets": true,
+    "C_Cpp.vcFormat.space.betweenEmptySquareBrackets": true,
+    "C_Cpp.vcFormat.space.betweenEmptyParameterListParentheses": true,
+    "C_Cpp.vcFormat.space.betweenEmptyBraces": true,
+    "C_Cpp.vcFormat.space.insertAfterSemicolon": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.startupEditor": "none",
+    "notebook.cellToolbarVisibility": "hover",
+    "editor.fontSize": 15,
+    "code-runner.runInTerminal": true,
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell",
+            "color": "terminal.ansiBlue",
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd",
+            "color": "terminal.ansiWhite"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "Ubuntu (WSL)": {
+            "path": "C:\\WINDOWS\\System32\\wsl.exe",
+            "overrideName": true,
+            "args": [
+                "-d",
+                "Ubuntu"
+            ],
+            "color": "terminal.ansiRed",
+            "icon": "terminal-ubuntu",
+            "terminal.integrated.splitCwd": "workspaceRoot"
+        },
+    },
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorWidth": 2,
+    "terminal.integrated.altClickMovesCursor": false,
+    "git.autofetch": true,
+    "terminal.integrated.commandsToSkipShell": [
+        "language-julia.interrupt"
+    ],
+    "julia.symbolCacheDownload": true,
+    "workbench.colorTheme": "Tomorrow Night Blue",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "notebook.cellFocusIndicator": "border",
+    "notebook.lineNumbers": "on",
+    "editor.fontFamily": "CaskaydiaCove NF, Consolas, 'Courier New', monospace",
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "editor.inlineSuggest.enabled": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "jupyter.askForKernelRestart": false,
+    "jupyter.jupyterServerType": "local",
+    "diffEditor.renderSideBySide": false,
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": false,
+        "dart": true
+    },
+    "files.autoSave": "afterDelay",
+    "notebook.output.textLineLimit": 100,
+    "dart.openDevTools": "flutter",
+    "gitlens.statusBar.alignment": "left",
+    "gitlens.mode.statusBar.alignment": "left",
+    "gitlens.advanced.messages": {
+        "suppressGitMissingWarning": true
+    },
+    "workbench.productIconTheme": "material-product-icons",
+    "workbench.iconTheme": "vscode-icons",
+    "terminal.integrated.enableShellIntegration": true,
+    "terminal.integrated.showShellIntegrationWelcome": false
+}

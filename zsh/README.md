@@ -99,3 +99,11 @@ sudo apt install zsh -y
 - **Ctrl + O** for starting **Ranger**. Ranger is a ***Terminal File Manager***.
 
 - **Ctrl + F** to start **zi**. ***ZI*** is a ***Directory Navigator*** or you can also type **zi** in terminal to get optional directory to navigate.
+
+## ***For competitive programming:***
+
+- **run _filename.cpp_** to compile cpp instantly.
+
+- **rerun _filename.cpp_** to build using sanitizers.
+    
+Note: ***run*** and ***rerun*** are functions defined by me as I couldn't think of a better name. You can make you own by modifying in the file like [here](https://github.com/madhavchoudhary0911/Setup/blob/eb4d235f1fd9360cc257d1e26addcfd8460fd546/zsh/.config/zsh/.zshrc#L108).

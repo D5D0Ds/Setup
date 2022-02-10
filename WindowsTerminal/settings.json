@@ -1,10 +1,8 @@
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": 
-    [
+    "actions": [
         {
-            "command": 
-            {
+            "command": {
                 "action": "copy",
                 "singleLine": false
             },
@@ -19,8 +17,7 @@
             "keys": "ctrl+v"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "splitPane",
                 "split": "auto",
                 "splitMode": "duplicate"
@@ -35,26 +32,26 @@
     "experimental.rendering.software": true,
     "focusFollowMouse": true,
     "launchMode": "default",
-    "profiles": 
-    {
-        "defaults": 
-        {
-            "acrylicOpacity": 0.5,
+    "profiles": {
+        "defaults": {
+            "acrylicOpacity": 0.75,
             "antialiasingMode": "aliased",
-            "backgroundImage": "desktopWallpaper",
-            "backgroundImageOpacity": 0.25,
+            "backgroundImage": null,
+            "backgroundImageOpacity": 0.59999999999999998,
+            "closeOnExit": "always",
             "experimental.retroTerminalEffect": false,
+            "font": {
+                "face": "CaskaydiaCove NF"
+            },
             "intenseTextStyle": "all",
-            "padding": "10",
+            "padding": "40",
             "useAcrylic": true
         },
-        "list": 
-        [
+        "list": [
             {
                 "acrylicOpacity": 0.5,
                 "colorScheme": "One Half Dark",
-                "font": 
-                {
+                "font": {
                     "face": "CaskaydiaCove NF"
                 },
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
@@ -67,8 +64,7 @@
             },
             {
                 "commandline": "powershell.exe",
-                "font": 
-                {
+                "font": {
                     "face": "Cascadia Mono"
                 },
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
@@ -91,8 +87,7 @@
                 "colorScheme": "One Half Dark",
                 "commandline": "wsl ~",
                 "experimental.retroTerminalEffect": false,
-                "font": 
-                {
+                "font": {
                     "face": "CaskaydiaCove NF",
                     "weight": "normal"
                 },
@@ -102,18 +97,12 @@
                 "name": "Ubuntu",
                 "padding": "59",
                 "source": "Windows.Terminal.Wsl",
+                "startingDirectory": null,
                 "useAcrylic": true
-            },
-            {
-                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
-                "hidden": false,
-                "name": "Git Bash",
-                "source": "Git"
             }
         ]
     },
-    "schemes": 
-    [
+    "schemes": [
         {
             "background": "#0C0C0C",
             "black": "#0C0C0C",

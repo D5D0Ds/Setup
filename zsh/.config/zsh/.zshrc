@@ -98,3 +98,11 @@ setxkbmap -option caps:escape
 # swap escape and caps
 # setxkbmap -option caps:swapescape
 
+ulimit -s 268435456
+
+compile() { g++ -std=c++17 -O2  -o "${1%.*}" $1 -Wshadow -Wall -Wno-unused-result; }
+run() { compile $1 && ./${1%.*} & fg; }
+# For compiling C++ file for Competitive Programming
+
+sanitize() { g++ -std=c++17  -o "${1%.*}" $1 -g -Wshadow -Wall -fsanitize=address -fsanitize=undefined -D_GLIBCXX_DEBUG; }
+rerun() { sanitize $1 && ./${1%.*} & fg; }
